@@ -1,61 +1,16 @@
-# Web Playback SDK Javascript Tutorial
+# Spotify Top Items
 
-This repository contains the source code for the [Web Playback SDK Guide](https://developer.spotify.com/documentation/web-playback-sdk/guide/).
+This repository is a web application built using React that interacts with the Spotify API to fetch and display a users top artists, and top tracks.
 
-## Using your own credentials
+## Login
+![Login](https://github.com/MohamadAlkahil/Spotify_Top/assets/37299254/da45d00e-4111-4d93-a47f-2c6e6c49bab7)
 
-You will need to register your app and get your own credentials from the
-[Spotify for Developers Dashboard](https://developer.spotify.com/dashboard/)
+## Checking Top Artists 
+![Top Artist](https://github.com/MohamadAlkahil/Spotify_Top/assets/37299254/2bf499a5-4460-4e04-86dd-e34f8a40571b)
 
-To do so, go to your Spotify for Developers Dashboard, create your
-application and register the following callback URI:
+## Checking Top Tracks
+![Top Track](https://github.com/MohamadAlkahil/Spotify_Top/assets/37299254/8dc30841-0cce-4391-9497-a71fd9f4f95e)
 
-`http://localhost:3000/auth/callback`
-
-Once you have created your app, create a file called `.env` in the root folder
-of the repository with your Spotify credentials:
-
-```bash
-SPOTIFY_CLIENT_ID='my_client_id'
-SPOTIFY_CLIENT_SECRET='my_client_secret'
-```
-
-## Installation
-
-These examples run on Node.js. On its
-[website](http://www.nodejs.org/download/) you can find instructions on how to
-install it.
-
-Once installed, clone the repository and install its dependencies running:
-
-```bash
-npm install
-```
-
-## Running the example
-
-Start both client and server with the following command:
-
-```bash
-npm run dev
-```
-
-The React application will start on `http://localhost:3000`
-
-## Resources
-
-- Follow [@SpotifyPlatform](https://twitter.com/SpotifyPlatform) on Twitter for Spotify for Developers updates.
-- Join the [Spotify for Developers Community Forum](https://community.spotify.com/t5/Spotify-for-Developers/bd-p/Spotify_Developer).
-
-## Code of Conduct
-
-This project adheres to the [Open Source Code of
-Conduct](https://github.com/spotify/code-of-conduct/blob/master/code-of-conduct.md).
-By participating, you are expected to honor this code.
-
-## License
-
-Copyright 2021 Spotify AB.
-
-Licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0
+## Logout
+![Logout](https://github.com/MohamadAlkahil/Spotify_Top/assets/37299254/a0c53af1-e4ac-4e77-b8b2-36053a1ea1c3)
 
